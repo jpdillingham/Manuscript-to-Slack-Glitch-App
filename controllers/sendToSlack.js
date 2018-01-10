@@ -31,7 +31,7 @@ const sendToSlack = (request, response)=>
   
   if(apiKey)
   {
-    if(apiKey == process.env.APIKEY)
+    if(apiKey == 'secret key')
     {
       validKey = true;
     }
